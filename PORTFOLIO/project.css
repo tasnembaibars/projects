@@ -1,0 +1,564 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    background-color: #faf2f2;
+    width: 100%;
+    
+}
+
+#logo{
+    width: 90px;
+    margin-left: 20px;
+    background-color: #cfabab;
+    
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#collapsibleNavId{
+    
+    width: 100%;
+    
+    position:  fixed;
+}
+
+#listitem1 li  a{
+    text-decoration: none;
+    color:#808080 ;
+   
+    
+    
+}
+
+li:hover{
+    font-size: 25px;
+}
+
+.PARGH1{
+    font-size: 25px;
+    font-family:Helvetica, sans-serif ;
+    color: #877070;
+    
+   text-shadow: 2px 2px 8px #e0c4c4 ;
+   margin-left: 20px;
+    
+}
+.PARGH2{
+    font-size: 25px;
+    font-family:Helvetica, sans-serif ;
+    color: #877070;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px  #e0c4c4 ;
+}
+#backim{
+   
+    position:relative;
+    
+    background-image: url(/images/BACK\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left ;
+    height: 230px;
+   
+    margin: 160px;
+    margin-top: 190px;
+    
+}
+img:hover{
+    box-shadow: 2px 2px 30px #e0c4c4;
+}
+
+span:hover{
+    text-shadow: 2px 2px 5px  #e0c4c4 ;
+}
+
+#mypersonal{
+    width: 350px;
+    float: right;
+    justify-items:right;
+    position: relative;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow:3px 3px 5px #e0c4c4;
+    margin-top: 195px;
+    margin-right: 140px;
+    
+}
+
+#backgroundim{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:145%;
+    background-position: bottom right;
+    border-radius: 25px;
+    height: 250px;
+    width: 300px;
+    float: right;
+    margin-right: 72px;
+    margin-top: 14px;
+}
+.about{
+    font-size: 25px;
+    color:#5D221E ;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 13px #a78986;
+   
+    
+}
+
+h4{
+    font-size: 40px;
+    margin-left: 100px;
+    color: #5D221E;
+    margin-top: 80px;
+    text-shadow: 2px 2px 13px #a78986;
+}
+h4:hover{
+    font-size: 50px;
+}
+
+#borderdiv{
+    border-style: solid;
+    border-radius:30px;
+    border-color: #5D221E;
+    border-width: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px #a78986;
+    
+}
+.quali{
+    color: #5D221E;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row-start: 1;
+}
+.quali2{
+    color: #5D221E;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row-start: 1;
+}
+#qualibo{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+    justify-content: space-around;
+    border-style: solid;
+    border-radius:30px;
+    border-color: #5D221E;
+    border-width: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding: 30px;
+
+    text-shadow: 2px 2px 13px #a78986;
+    box-shadow: 2px 2px 5px #a78986;
+    
+}
+#back3{
+    float: right;
+   background-position: right;
+   margin-right: 80px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    grid-column: 3/4;
+    align-items: center;
+    justify-content: center;
+}
+#huge{
+    border-style: solid;
+    border-radius:40px;
+    border-color: #5D221E;
+    border-width: 2px;
+    margin-left: 100px;
+    margin-right: 130px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+    background-image: url(/images/background.jpg);
+    
+    background-repeat: no-repeat;
+   background-size: 70%;
+   background-position:right;
+   text-shadow: 2px 2px 10px #a78986;
+   box-shadow: 2px 2px 15px #a78986;
+}
+
+.dot{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #5D221E;
+    margin-top: 60px;
+}
+.exp{
+    float: right;
+    margin-right: 200px;
+    font-size: 20px;
+}
+.interpar{
+    margin-right: 60px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: #5D221E;
+
+}
+.internal{
+    font-size: 20px;
+    margin-left: -30px;
+    margin-right: 50px;
+}
+.refre{
+    
+    font-size: 22px;
+    margin-left: 150px;
+    color: #5D221E;
+    border-style: solid;
+    border-radius:40px;
+    border-color: #5D221E;
+    border-width: 2px;
+    margin-left: 100px;
+    margin-right: 370px;
+    margin-top: 40px;
+    margin-bottom: 100px;  
+    padding: 60px;
+    
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size: 35%;
+
+    height: 290px;
+    text-shadow: 2px 2px 13px #a78986;
+    box-shadow: 2px 2px 5px #a78986;
+}
+
+
+#footer{
+    display: grid;
+    grid-template-columns: repeat(12 ,auto);
+    justify-content: space-evenly;
+    border: none;
+    background-color: #e6e3e3;
+    border-width: 2px;
+    color:#808080 ;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 2px 2px 13px #a78986;
+    box-shadow: 4px 4px 12px #a78986;
+    height: 60px;
+    padding-top: 10px;
+   
+    }
+    .github{
+        grid-column: 1/3;
+    }
+    .email{
+        grid-column: 3/6;
+    }
+    .linkedin{
+        grid-column: 6/9;
+    }
+    .phone{
+        grid-column: 9/12;
+    }
+    span:hover{
+        box-shadow:  2px 2px 20px #a78986;
+    }
+    footer:hover{
+        box-shadow: 4px 4px 12px #a78986;
+    }
+   
+#footer div a img{
+ height:40px;
+ width: 40px;
+ 
+
+}
+
+
+p:hover{
+    color: #a39191;
+}
+
+    
+@media screen and (min-width:480px) and (max-width:768px)
+{
+   
+   
+    #logo{
+        width: 60px;
+        margin-left: 20px;
+        margin-top:30px ;
+    }  
+    
+    #backim{
+      
+       
+       
+    
+     
+      margin-left: 180px;
+    }
+    .PARGH2{
+         width: 300px;
+         margin-top: 100px;
+         
+         font-size: 30px;
+    }
+    .PARGH1{
+        width: 300px;
+        
+       margin-right: 300px;
+       float: left;
+        
+    }
+
+    #mypersonal{
+        width: 170px;
+      justify-self: right;
+      margin-top: 340px;
+     
+        
+    }
+    #item1{
+        padding: 1px;
+    }
+    #item2{
+        
+        
+        
+        
+    }
+    #huge{
+        text-align: left;
+        padding-right: 20px;
+        font-size: 15px;
+        padding: 0px;
+        width: 95%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    span{
+        display:block;
+    }
+
+    .refre{
+        font-size: 15px;
+        height: 350px;
+        width: 80%;
+    }
+    h4{
+        font-size: 25px;
+    }
+    #item5{font-size: 25px;}
+    
+    }
+    #footer div a img{
+        height:25px;
+        width: 25px;
+      
+        
+    }
+    #footer{
+      grid-template-columns: repeat(12,auto);
+      width: 100%;
+    }
+   .github{
+       grid-column: 1/3;
+   }
+ .email{ 
+     grid-column: 3/6;
+ }
+.linkedin{
+    grid-column: 6/9;
+}
+.phone{
+    grid-column: 9/12;
+}
+@media screen and (max-width:479px) {
+    #navbarsupportedcontent{
+       
+        color:#808080 ;
+        font-size: 15px;
+        
+       }
+       #logo{
+        width: 40px;
+        margin-left: 10px;
+        margin-top:0px ;
+        position: relative;
+    }    
+    #mypersonal{
+        width: 90px;
+        float: right;
+        justify-items:right;
+        position: relative;
+        border: solid 1px;
+        border-radius: 50%;
+        box-shadow:3px 3px 5px #e0c4c4;
+        margin-top: 85px;
+        margin-right: 0px;
+    }
+    
+  
+    .PARGH1{
+        width: 320px;
+        font-size: 15px;
+        margin-left: 0px;
+       
+    }
+    .PARGH2{
+        font-size: 10px;
+        padding: 0px;
+    }
+    #backim{
+        width: 100px;
+        margin-left: auto;
+        margin-bottom: 0px;
+        height: 230px;
+   
+    margin: 20px;
+    margin-top: 0px;
+        }
+    h4{
+        font-size: 20px;
+    }
+   
+   
+    .about{
+        width: 280px;
+        font-size: 15px;
+        color:#5D221E ;
+       margin-left: -40px;
+       margin-right: 0px; 
+       border-width: 300px;
+    
+       padding-left: 20px;
+       
+    }
+    #borderdiv{
+        width: 260px;
+        margin-left: 30px;
+    }
+    #backgroundim{
+       margin-right:30px;
+       height: 100px;
+       width:100px;
+        
+    }
+    #qualibo{
+        height: 400px;
+        width: 290px;
+        padding-inline-start: 15px;
+        margin-left: 30px;
+    }
+   
+    #back3{
+        display: none;
+        background-position: right;
+        margin-right: 70px;
+         margin-top: 40px;
+         height: 50px;
+         width: 50px;
+           margin-left: 80px;
+           width: 150px;
+          height: 150px;
+       }
+
+   .quali{
+       text-align: left;
+       margin-left: 10px;
+       width: 180px;
+       font-size: 15px;
+       
+   }
+   .quali2{
+    text-align: left;
+    margin-left: 0px;
+    width: 150px;
+    font-size: 15px;
+    padding-right: 13px;
+}
+   #huge{
+    border-style: solid;
+    border-radius:40px;
+    border-color: #5D221E;
+    border-width: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+    background-image: url(/images/background.jpg);
+    float:none;
+    background-repeat: no-repeat;
+   background-size: 70%;
+   background-position:right;
+   text-shadow: 2px 2px 10px #a78986;
+   box-shadow: 2px 2px 15px #a78986;
+       justify-content:left;
+       width: 280px;
+       background-position: bottom right;
+   }
+   ul{
+       padding-inline-start: 0px;
+   }
+   .dot{
+       font-size: 20px;
+       text-align: left;
+       padding: 0px;
+
+   }
+ 
+.interpar,.internal , .exp{
+    display: none;
+}
+.refre{
+    font-size: 17px;
+    margin-right: 0px;
+    margin-left: 20px;  
+    width: 300px; 
+    height: 600px;
+}
+#footer{
+    width: 360px;
+    grid-template-columns: repeat(12,auto);
+    margin: auto;
+}
+.github{
+    grid-column: 1/3;
+
+}
+.email{ 
+     grid-column: 3/6;
+ }
+.linkedin{
+    grid-column: 6/9;
+}
+.phone{
+    grid-column: 9/12;
+
+}
+}
